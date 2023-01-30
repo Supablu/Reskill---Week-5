@@ -252,14 +252,14 @@ nav {
 .book-name {
   display: flex;
   flex-direction: column;
-  padding: 40px 250px;
+  padding: 40px 450px;
 }
 
 .metadata {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 40px 250px;
+  padding: 40px 450px;
 }
 
 .metadata-left {
@@ -275,6 +275,11 @@ nav {
 .metadata-right {
   display: flex;
   flex-direction: column;
+}
+
+.metadata-right a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .get-add button {
@@ -319,11 +324,12 @@ nav {
 }
 
 .summary {
-  padding: 40px 250px;
+  padding: 40px 450px;
 }
 
 .break {
   border: 1px #22235f solid;
+  margin-top: 50px;
 }
 
 .review-title {
@@ -334,16 +340,69 @@ nav {
 .reviews {
   display: flex;
   flex-direction: column;
-  padding: 20px 250px;
+  padding: 20px 450px;
 }
 
 .stars-write {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 
-/* .reviews-rating {
+.stars-write button {
+  border: 2px #22235f solid;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.review-info {
+  display: flex;
+  gap: 5px;
+}
+
+.review-info img {
+  width: 15px;
+  height: 100%;
+}
+
+.tags {
   display: flex;
   flex-direction: column;
-} */
+  padding: 20px 450px;
+}
+
+.tag-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tag-buttons button {
+  border: 2px #22235f solid;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.tag-buttons button:hover {
+  text-decoration: underline;
+}
+
+.books-recommend {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 450px;
+}
+
+.books-recommend-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.book-card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
