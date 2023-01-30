@@ -406,3 +406,25 @@ nav {
   flex-direction: column;
   align-items: center;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  padding: 20px 250px;
+}
+
+.grid-item1 {
+  border: 1px #22235f solid;
+  background-color: #9fa0f1ce;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.grid-item2 {
+  border: 1px #22235f solid;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
