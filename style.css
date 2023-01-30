@@ -248,3 +248,102 @@ nav {
   display: flex;
   flex-direction: row;
 }
+
+.book-name {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 250px;
+}
+
+.metadata {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 250px;
+}
+
+.metadata-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.metadata-left img {
+  width: 325px;
+  height: auto;
+}
+
+.metadata-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.get-add button {
+  font-size: 25px;
+  padding: 15px 25px;
+  background-color: #22235f;
+  color: #f5f5f5;
+  border: none;
+  border-radius: 5px;
+}
+
+.metadata-format {
+  display: flex;
+  flex-direction: column;
+}
+
+.format-types {
+  display: flex;
+  font-size: 14px;
+}
+
+.format-type1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px #22235f solid;
+  border-radius: 5px;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.format-type2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px #22235f solid;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.summary {
+  padding: 40px 250px;
+}
+
+.break {
+  border: 1px #22235f solid;
+}
+
+.review-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 250px;
+}
+
+.stars-write {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* .reviews-rating {
+  display: flex;
+  flex-direction: column;
+} */
