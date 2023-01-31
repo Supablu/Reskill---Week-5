@@ -547,7 +547,13 @@ nav {
   padding: 15px 0 0 0;
 }
 
+.checkout-tools img {
+  width: 10%;
+  margin: 10px 10px 0 10px;
+}
+
 .checkout-label {
+  display: flex;
   background-color: #ffffff;
   width: 150px;
   margin-left: 150px;
@@ -558,6 +564,12 @@ nav {
 .checkout-search {
   margin-left: 150px;
   padding-top: 20px;
+}
+
+.checkout-search img {
+  width: 20px;
+  margin: 10px 10px 0 10px;
+  cursor: pointer;
 }
 
 .checkout-search input {
