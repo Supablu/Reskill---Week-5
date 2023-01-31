@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "inter", sans-serif;
 }
 
 nav {
@@ -13,6 +14,7 @@ nav {
 
 .nav-left {
   display: flex;
+  margin: 20px;
 }
 
 .nav-left h1 {
@@ -24,12 +26,17 @@ nav {
 }
 
 .logo img {
-  display: flex;
-  flex-direction: column;
+  display: block;
+}
+
+.nav-right {
+  margin: 20px;
 }
 
 .nav-right a {
   text-decoration: none;
+  margin: 10px;
+  color: #22235f;
 }
 
 .nav-right button {
@@ -64,7 +71,7 @@ nav {
   color: #ffffff;
   position: absolute;
   top: 60%;
-  left: 62.1%;
+  left: 61%;
 }
 
 .popular-banner {
@@ -73,6 +80,7 @@ nav {
   justify-content: center;
   background-color: #22235f;
   color: #ffffff;
+  padding: 20px;
 }
 
 .popular-books {
@@ -80,14 +88,16 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  color: #22235f;
+  padding: 60px;
 }
 
 .popular-books h3 {
-  text-align: center;
+  text-align: left;
 }
 
 .popular-books p {
-  text-align: center;
+  text-align: left;
 }
 
 .login {
@@ -96,6 +106,7 @@ nav {
   align-items: center;
   justify-content: space-around;
   padding: 50px;
+  color: #22235f;
 }
 
 .login-right {
@@ -106,6 +117,11 @@ nav {
   width: 40%;
   padding: 60px;
   background-color: #f5f5f5;
+  border-radius: 5%;
+}
+
+.login-left p {
+  margin: 10px 10px 10px 0;
 }
 
 .login-left input {
@@ -138,14 +154,29 @@ nav {
 .main-left {
   display: flex;
   flex-direction: column;
-  /* padding: 50px; */
+  margin: 50px;
+}
+
+.main-left a {
+  font-size: 20px;
+  padding: 15px 0;
+  text-decoration: none;
+  color: #22235f;
 }
 
 .main-right {
   display: flex;
   flex-direction: column;
-  /* padding: 50px 200px; */
-  /* background-color: antiquewhite; */
+  margin: 50px 120px 50px 0;
+  color: #22235f;
+}
+
+.about-title {
+  margin: 0 50px 20px 0;
+}
+
+.about-title h1 {
+  margin-bottom: 20px;
 }
 
 .about-info {
@@ -156,10 +187,15 @@ nav {
 .about-info-left {
   inline-size: 500px;
   overflow-wrap: break-word;
+  margin: 0 50px 50px 0;
+}
+
+.about-info-left h4 {
+  margin-bottom: 20px;
 }
 
 .about-info img {
-  width: 500px;
+  width: 600px;
   height: auto;
 }
 
@@ -178,6 +214,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: left;
+  color: #22235f;
 }
 
 .search-field {
@@ -223,18 +260,40 @@ nav {
   flex-direction: row;
 }
 
+.dropdown-search select {
+  padding: 10px;
+  margin: 30px 0;
+  border-radius: 5px;
+  border: 1px #22235f solid;
+}
+
 .catalog-left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 60%;
+  margin-left: 475px;
 }
 
 .catalog-right {
   display: flex;
   flex-direction: column;
-  width: 60%;
   background-color: #f5f5f5;
+  margin-right: 450px;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.catalog-right button {
+  border: 2px #22235f solid;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin: 10px 10px 10px 0;
+}
+
+.catalog-language {
+  display: flex;
+  flex-direction: column;
 }
 
 .catalog-language input {
@@ -253,9 +312,10 @@ nav {
   display: flex;
   flex-direction: column;
   padding: 40px 450px;
+  color: #22235f;
 }
 
-.metadata {
+.book-a .metadata {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -294,6 +354,7 @@ nav {
 .metadata-format {
   display: flex;
   flex-direction: column;
+  color: #22235f;
 }
 
 .format-types {
@@ -325,6 +386,7 @@ nav {
 
 .summary {
   padding: 40px 450px;
+  color: #22235f;
 }
 
 .break {
@@ -341,6 +403,7 @@ nav {
   display: flex;
   flex-direction: column;
   padding: 20px 450px;
+  color: #22235f;
 }
 
 .stars-write {
@@ -353,8 +416,10 @@ nav {
 .stars-write button {
   border: 2px #22235f solid;
   background-color: #ffffff;
+  color: #22235f;
   padding: 10px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .review-info {
@@ -371,6 +436,7 @@ nav {
   display: flex;
   flex-direction: column;
   padding: 20px 450px;
+  color: #22235f;
 }
 
 .tag-buttons {
@@ -382,18 +448,25 @@ nav {
 .tag-buttons button {
   border: 2px #22235f solid;
   background-color: #ffffff;
+  color: #22235f;
   padding: 10px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .tag-buttons button:hover {
   text-decoration: underline;
 }
 
+.recommend-title {
+  margin-bottom: 20px;
+}
+
 .books-recommend {
   display: flex;
   flex-direction: column;
   padding: 20px 450px;
+  color: #22235f;
 }
 
 .books-recommend-list {
@@ -401,10 +474,50 @@ nav {
   justify-content: space-evenly;
 }
 
+.book-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-info-card {
+  display: flex;
+  flex-direction: row;
+  color: #22235f;
+  font-size: 14px;
+}
+
+.book-info-card-right {
+  margin: 0 80px;
+}
+
+.book-info-location {
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+}
+
 .book-card1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  /* margin: 10px; */
+  cursor: pointer;
+}
+
+.book-author {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+}
+
+.book-tags button {
+  border: 2px #22235f solid;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin: 10px 10px 0 0;
+  cursor: pointer;
 }
 
 .grid-container {
@@ -427,4 +540,37 @@ nav {
   display: flex;
   justify-content: center;
   padding: 10px;
+}
+
+.checkout-tools {
+  background-color: #22235f;
+  padding: 15px 0 0 0;
+}
+
+.checkout-label {
+  background-color: #ffffff;
+  width: 150px;
+  margin-left: 150px;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+}
+
+.checkout-search {
+  margin-left: 150px;
+  padding-top: 20px;
+}
+
+.checkout-search input {
+  width: 250px;
+}
+
+.checkout-search button {
+  border: 2px #22235f solid;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.checkout-search button:hover {
+  cursor: pointer;
 }
