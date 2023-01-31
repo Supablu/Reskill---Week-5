@@ -315,7 +315,7 @@ nav {
   color: #22235f;
 }
 
-.book-a .metadata {
+.metadata {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -391,7 +391,7 @@ nav {
 
 .break {
   border: 1px #22235f solid;
-  margin-top: 50px;
+  margin: 50px;
 }
 
 .review-title {
