@@ -74,13 +74,21 @@ nav {
   left: 61%;
 }
 
+.popular-arrow {
+  cursor: pointer;
+}
+
 .popular-banner {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   background-color: #22235f;
   color: #ffffff;
   padding: 20px;
+}
+
+.popular-banner h1 {
+  margin-left: 150px;
 }
 
 .popular-books {
