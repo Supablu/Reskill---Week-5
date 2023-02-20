@@ -263,6 +263,16 @@ nav {
   width: 50%;
 }
 
+.advanced-search a {
+  padding-top: 5px;
+}
+
+.advanced-search img {
+  width: 30px;
+  padding: 5px;
+  cursor: pointer;
+}
+
 .search-meta {
   display: flex;
   justify-content: space-between;
