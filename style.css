@@ -642,3 +642,151 @@ nav {
 .checkout-search button:hover {
   cursor: pointer;
 }
+
+/********************************/
+@media (max-width: 400px) {
+  /**Index**/
+  nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px black solid;
+  }
+
+  .nav-left {
+    display: flex;
+    margin: 20px;
+  }
+
+  .nav-left h1 {
+    font-size: 28px;
+  }
+
+  .nav-left a {
+    text-decoration: none;
+  }
+
+  .logo img {
+    display: block;
+  }
+
+  .nav-right {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    font-size: 12px;
+    margin: 10px;
+  }
+
+  .nav-right a {
+    text-decoration: none;
+    margin: 10px;
+    color: #22235f;
+  }
+
+  .nav-right button {
+    background-color: #22235f;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    gap: 8px;
+    margin: 3px;
+  }
+
+  .banner {
+    position: relative;
+  }
+
+  .banner img {
+    border-top: 1px black solid;
+    width: 100%;
+    height: auto;
+  }
+
+  .banner input {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 260px;
+    padding: 15px 10px;
+    border-radius: 8px;
+  }
+
+  .banner a {
+    color: #ffffff;
+    position: absolute;
+    top: 75%;
+    left: 31%;
+  }
+
+  .banner-search img {
+    position: absolute;
+    bottom: 275px;
+    left: 1260px;
+    width: 100%;
+    height: auto;
+    border: none;
+  }
+
+  .popular-arrow {
+    cursor: pointer;
+    margin-top: 70px;
+    background-color: lightgrey;
+    border-radius: 50px;
+    padding: 10px;
+  }
+
+  .popular-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #22235f;
+    color: #ffffff;
+    padding: 20px;
+  }
+
+  .popular-banner h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+  }
+
+  .popular-books {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #22235f;
+    padding: 60px;
+    margin: 10px;
+  }
+
+  .popular-books h3 {
+    text-align: left;
+    max-width: 260px;
+  }
+
+  .popular-books p {
+    text-align: left;
+  }
+
+  .book1 {
+    padding: 40px;
+  }
+  .book2 {
+    padding: 40px;
+  }
+  .book3 {
+    padding: 40px;
+  }
+  .book4 {
+    padding: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
