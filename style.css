@@ -958,12 +958,13 @@ nav {
     align-items: center;
     justify-content: left;
     color: #22235f;
+    width: 100%;
   }
 
   .search-field {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     width: 50%;
   }
 
@@ -983,7 +984,7 @@ nav {
 
   .advanced-search {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     width: 50%;
   }
 
@@ -1000,11 +1001,11 @@ nav {
   .search-meta {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
   }
 
   .search-meta button {
-    padding: 10px 55px;
+    padding: 5px 5px;
     background-color: #22235f;
     color: #f5f5f5;
     border: none;
@@ -1019,12 +1020,22 @@ nav {
     display: flex;
     /* align-items: center; */
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .dropdown-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 0 0 160px; */
+    width: 80%;
   }
 
   .dropdown-search select {
+    width: 80%;
     padding: 10px;
-    margin: 30px 0;
+    margin: 30px;
     border-radius: 5px;
     border: 1px #22235f solid;
   }
@@ -1032,17 +1043,22 @@ nav {
   .catalog-left {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-left: 475px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 475px; */
+    order: 2;
+    width: 100%;
   }
 
   .catalog-right {
     display: flex;
     flex-direction: column;
     background-color: #f5f5f5;
-    margin-right: 450px;
+    /* margin-right: 450px;
     margin-top: 30px;
-    padding: 30px;
+    padding: 30px; */
+    order: 1;
+    width: 100%;
   }
 
   .catalog-right button {
@@ -1069,6 +1085,14 @@ nav {
   .catalog-language label {
     display: flex;
     flex-direction: row;
+  }
+
+  .book-info-card {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -1375,5 +1399,149 @@ nav {
     width: 130%;
     /* padding-left: 40px; */
     padding-bottom: 20px;
+  }
+
+  /*Booklist */
+  .search-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    color: #22235f;
+    width: 100%;
+  }
+
+  .search-field {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+  }
+
+  .search-field img {
+    position: absolute;
+    width: 40px;
+    height: auto;
+    bottom: 808px;
+    left: 1370px;
+    cursor: pointer;
+  }
+
+  .search-field input {
+    border-radius: 5px;
+    padding: 15px 10px;
+  }
+
+  .advanced-search {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .advanced-search a {
+    padding-top: 5px;
+  }
+
+  .advanced-search img {
+    width: 30px;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  .search-meta {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .search-meta button {
+    padding: 5px 5px;
+    background-color: #22235f;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .search-meta button:hover {
+    background-color: #eb4852;
+  }
+
+  .catalog-main {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .dropdown-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 0 0 160px; */
+    width: 80%;
+  }
+
+  .dropdown-search select {
+    width: 80%;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 5px;
+    border: 1px #22235f solid;
+  }
+
+  .catalog-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 475px; */
+    order: 2;
+    width: 100%;
+  }
+
+  .catalog-right {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    /* margin-right: 450px;
+      margin-top: 30px;
+      padding: 30px; */
+    order: 1;
+    width: 100%;
+  }
+
+  .catalog-right button {
+    border: 2px #22235f solid;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin: 10px 10px 10px 0;
+    cursor: pointer;
+  }
+
+  .catalog-language {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .catalog-language input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .catalog-language label {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .book-info-card {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
   }
 }
