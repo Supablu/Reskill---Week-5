@@ -1472,6 +1472,7 @@ nav {
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    /* overflow: hidden; */
   }
 
   .dropdown-search {
@@ -1495,6 +1496,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     /* margin-left: 475px; */
     order: 2;
     width: 100%;
@@ -1543,5 +1545,6 @@ nav {
     /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 }
