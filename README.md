@@ -8,3 +8,6 @@ How to navigate:
 -Index.html(Home Page) > Browse the catalog > booklist.html(Book list Page)  
 -Index.html(Home Page) > Just Another Love Song > Book Description Page(description.html)  
 -Book Description Page(description.html) > Get this item button > Check Out page(checkout.html)
+
+Week 6  
+-Added responsiveness (still in development)
